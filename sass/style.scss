@@ -1,2 +1,24 @@
 @import "header";
 @import "main";
+
+
+#slide1 {
+    background: url("img/parallax1.jpg") center no-repeat fixed; 
+    background-size: cover;
+    width: 100%;
+ }
+ 
+ #slide2 {
+    background: url("img/parallax2.jpg") center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 10rem;
+ }
+ 
+ #slide3 {
+    background: url("img/parallax3.jpg") center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 10rem;
+ }
+

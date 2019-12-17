@@ -1,13 +1,26 @@
 header {
   background-image: url(img/parallax1.jpg);
   height: 100vh; }
-  header .mylogo {
-    position: absolute;
-    top: 45%;
-    left: 45%; }
 
 .images div div img {
   width: 90%;
   height: 90%; }
+
+#slide1 {
+  background: url("img/parallax1.jpg") center no-repeat fixed;
+  background-size: cover;
+  width: 100%; }
+
+#slide2 {
+  background: url("img/parallax2.jpg") center no-repeat fixed;
+  background-size: cover;
+  width: 100%;
+  padding: 10rem; }
+
+#slide3 {
+  background: url("img/parallax3.jpg") center no-repeat fixed;
+  background-size: cover;
+  width: 100%;
+  padding: 10rem; }
 
 /*# sourceMappingURL=style.css.map */

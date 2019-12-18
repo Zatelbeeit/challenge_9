@@ -14,22 +14,22 @@
 <body>
     <div class="container-fluid">
         <header id="slide1">
-            <nav class="nav navbar-expand-md navbar-light d-flex ">
-
+            <nav class="nav navbar-expand-md navbar-light d-flex justify-content-between">
+                <a class="navbar-brand px-1" href="">HOME</a>
                 <button class="navbar-toggler text-danger" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="w-50">
-                        <ul class="navbar-nav d-flex align-items-center">
+                 
+                        <ul class="navbar-nav mr-auto">
                             <li class="nav-link"><a>HOME</a></li>
                             <li class="nav-link"><i class="fas fa-user icon_header"></i><a>ABOUT</a></li>
                             <li class="nav-link"><i class="fas fa-poo icon_header"></i><a>PORTFOLIO</a></li>
                             <li class="nav-link"><i class="fas fa-envelope icon_header"></i><a>CONTACT</a></li>
                         </ul>
-                    </div>
-                    <div class="w-50 text-right"><i class="fas fa-search"></i></div>
+                    
+                    <i class="fas fa-search"></i>
                 </div>
 
 
@@ -38,17 +38,17 @@
             <div class="mylogo d-flex align-items-center h-100 justify-content-center">
 
 
-                <h3 class="bg-dark text-light p-1 px-4">MY WEBSITE LOGO</h3>
+                <h3 class="bg-dark text-light p-1 px-4">MY <span class="website">WEBSITE</span> LOGO</h3>
 
 
             </div>
         </header>
         <main>
-            <section class="w-50 mx-auto mb-5">
-                <div class="row no-gutters">
-                    <div class="col-12 text-center">
+            <section class="mx-auto mb-5">
+                <div class="row no-gutters section1 mx-auto">
+                    <div class="col-12 text-center ">
                         <H3 class="mt-5">ABOUT ME</H3>
-                        <p><small>I love photography</small></p>
+                        <p><em>I love photography</em></p>
                         <p class="text-left pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolor
                             reprehenderit, ea possimus
                             optio exercitationem unde ullam perspiciatis? Id unde officiis neque assumenda corrupti
@@ -57,19 +57,21 @@
                             veniam cumque porro vero mollitia.</p>
                     </div>
                     <div class="col-12 col-md-6 ">
-                        <h6 class="text-center pb-3"><span><i class="fas fa-user icon_main"></i></span> My Name</h6>
+                        <h6 class="text-center pb-3 font-weight-bold"><span><i class="fas fa-user icon_main"></i></span>
+                            My Name</h6>
                         <div>
                             <img class="w-100" src="img/avatar_hat.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 pl-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                    <div class="col-12 col-md-6 pl-4 website">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Culpa
                         aliquam
                         nihil necessitatibus assumenda praesentium quod nemo eveniet, eligendi dolorum exercitationem,
                         molestiae laborum. Dolores praesentium architecto, eveniet minima voluptatum in
                         doloremque?Lorem, ipsum dolor .
                     </div>
                     <div class="col-12 ">
-                        <h6 class="text-center py-5">  I'm really good at:</h6>
+                        <h6 class="text-center py-5"> I'm really good at:</h6>
                         <div>
                             <p class="good_at"><i class="fas fa-camera pr-1"></i>Photography</p>
                             <div class="progress mb-3">
@@ -108,7 +110,7 @@
                         <div>
                             <h6>14+</h6>
                         </div>
-                        <div> 
+                        <div>
                             <p><small>Partners</small></p>
                         </div>
                     </div>
@@ -135,57 +137,59 @@
                     </div>
                     <div class="col-12 text-center">
                         <H6 class="mt-5">MY WORK</H6>
-                        <p class="w-25 m-auto py-3"><small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+                        <p class="my_work m-auto py-3 font-italic"><small>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Commodi,
                                 quam? </small></p>
                     </div>
-                    <div class="images w-75 m-auto">
+                    <div class="images m-auto">
                         <div class="row no-gutters text-center d-flex justify-content-center">
                             <div class="col-12 col-md-3 "><img src="img/p1.jpg" alt=""></div>
                             <div class="col-12 col-md-3 "><img src="img/p2.jpg" alt=""></div>
                             <div class="col-12 col-md-3 "><img src="img/p3.jpg" alt=""></div>
-                            <div class="col-12 col-md-3 "><img src="img/p4.jpg" alt=""></div>
+                            <div class="col-12 col-md-3 img_4 "><img src="img/p4.jpg" alt=""></div>
                             <div class="col-12 col-md-3 "><img src="img/p5.jpg" alt=""></div>
                             <div class="col-12 col-md-3 "><img src="img/p6.jpg" alt=""></div>
                             <div class="col-12 col-md-3 "><img src="img/p7.jpg" alt=""></div>
                             <div class="col-12 col-md-3 "><img src="img/p8.jpg" alt=""></div>
-                            <div class="btn rounded-0 load_more my-4">LOAD MORE</div>
+                            <div class="btn rounded-0 load_more my-5">LOAD MORE</div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class=" m-auto">
+            <section class=" mx-auto section4">
                 <div class="row no-gutters">
-                    <div class="div text-center" id="slide3">
+                    <div class="div d-flex justify-content-center align-items-center" id="slide3">
                         <div>
                             <h4 class="text-center text-light contact">CONTACT</h4>
                         </div>
                     </div>
                     <div class="col-12 text-center my-5">
                         <h6>WHERE I WORK</h6>
-                        <p><small>I'd love your feedback</small></p>
+                        <p class="font-italic">I'd love your feedback</p>
                     </div>
-                    <div class="w-50 m-auto">
+                    <div class="section3 m-auto">
                         <div class="row">
 
                             <div class="col-12 col-md-4">
                                 <img src="img/map.jpg" class="w-100" alt="">
                             </div>
-                            <div class="col-12 col-md-8 ">
+                            <div class="col-12 col-md-8 pt-2">
                                 <p><i class="fas fa-map-marker-alt mr-3"></i>Chicago, US</p>
                                 <p><i class="fas fa-phone-alt mr-3"></i>Phone: +00 151515</p>
                                 <p><i class="fas fa-envelope mr-3"></i>Email: mail@mail.com</p>
                                 <p><small>Swing by for a cup ,or leave me a note</small></p>
                                 <form>
-                                    <div class="row">
-                                        <div class="col p-1">
+                                    <div class="row mr-3">
+                                        <div class="col-12 col-md-6 p-1">
                                             <input type="text" class="form-control" placeholder="Name">
                                         </div>
-                                        <div class="col p-1">
+                                        <div class="col-12 col-md-6 p-1">
                                             <input type="mail" class="form-control" placeholder="Email">
                                         </div>
                                         <input type="text" class="w-100 p-1 mx-1" placeholder="Message">
                                         <div class="d-flex justify-content-end w-100 py-2">
-                                            <button class="btn rounded-0 btn-dark"><i class="fas fa-paper-plane"></i>SEND
+                                            <button class="btn rounded-0 btn-dark"><i
+                                                    class="fas fa-paper-plane"></i>SEND
                                                 MESSAGE</button>
                                         </div>
                                     </div>
@@ -199,15 +203,18 @@
             </section>
             <footer class="text-center bg-secondary py-5">
                 <div>
-                    <a href="slide1" type="button" class="btn btn-light rounded-0"> <i class="fas fa-arrow-up px-2"></i>To the top</a>
+                    <a href="slide1" type="button" class="btn btn-light rounded-0"> <i
+                            class="fas fa-arrow-up px-2"></i>To the top</a>
                 </div>
                 <div class="py-3">
-                    <i class="fab fa-facebook-square text-white px-1"></i><i class="fab fa-instagram text-white px-1"></i><i
-                        class="fas fa-concierge-bell text-white px-1"></i><i class="fab fa-pinterest-p text-white px-1"></i><i
-                        class="fab fa-twitter text-white px-1"></i><i class="fab fa-linkedin-in text-white px-1"></i>
+                    <i class="fab fa-facebook-square text-white px-1"></i><i
+                        class="fab fa-instagram text-white px-1"></i><i
+                        class="fas fa-concierge-bell text-white px-1"></i><i
+                        class="fab fa-pinterest-p text-white px-1"></i><i class="fab fa-twitter text-white px-1"></i><i
+                        class="fab fa-linkedin-in text-white px-1"></i>
                 </div>
                 <div>
-                    <p class="text-white">Powered by <u>Max et Lou !</u></p>
+                    <p class="text-white">Powered by <u class="text-danger">Max et Lou !</u></p>
                 </div>
             </footer>
         </main>
@@ -216,14 +223,8 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="script.js"></script>
-    <script type="text/javascript" src="script/jquery.parallax-1.1.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#slide1').parallax("center", 0, 0.1, true);
-            $('#slide2').parallax("center", 900, 0.1, true);
-            $('#slide3').parallax("center", 2900, 0.1, true);
-        })
-    </script>
+
+
 
 </body>
 

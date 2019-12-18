@@ -1,10 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 header {
   background-image: url(img/parallax1.jpg);
   height: 100vh; }
+  header ul .nav-link {
+    padding: 0rem; }
+    header ul .nav-link .icon_header {
+      font-size: 0.7rem;
+      padding-right: 0.3rem; }
+      header ul .nav-link .icon_header a {
+        padding-top: 1rem; }
+  header h3 {
+    letter-spacing: 0.5rem; }
 
 .images div div img {
   width: 90%;
   height: 90%; }
+
+.icon_main {
+  font-size: 0.7rem;
+  padding-right: 0.5rem; }
+
+.good_at {
+  word-spacing: 0.3rem;
+  letter-spacing: 0.5rem; }
+
+#slide2 h4 {
+  letter-spacing: 0.5rem; }
+
+.load_more {
+  background-color: #f3eded !important; }
+
+.contact {
+  letter-spacing: 0.7rem; }
 
 #slide1 {
   background: url("img/parallax1.jpg") center no-repeat fixed;
@@ -22,5 +49,9 @@ header {
   background-size: cover;
   width: 100%;
   padding: 10rem; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: gray; }
 
 /*# sourceMappingURL=style.css.map */

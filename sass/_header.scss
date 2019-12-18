@@ -1,10 +1,21 @@
 header{
     background-image: url(img/parallax1.jpg);
     height: 100vh;
-    // .mylogo{
-    //     position:absolute;
-    //     top:45%;
-    //     text-align: center;
-    // }
+    ul{
+        .nav-link{
+            padding:0rem;
 
+            .icon_header{
+                font-size: 0.7rem;
+                padding-right:0.3rem;
+
+                a{
+                    padding-top:1rem;
+                }
+            }
+        }
+    }
+    h3{
+        letter-spacing: 0.5rem;
+    }
 }
